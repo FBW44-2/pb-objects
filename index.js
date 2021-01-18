@@ -9,7 +9,7 @@ const todo = {
 // console.log(todo['title']);
 
 // Iterating props in an object
-for (key in todo) {
+for (let key in todo) {
     // check if completed
     if (key === 'completed') {
         if (todo.completed) {
